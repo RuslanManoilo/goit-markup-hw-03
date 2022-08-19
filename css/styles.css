@@ -47,6 +47,11 @@ ul {
 
 /*INDEX*/
 
+/*Main Nav*/
+.main-nav {
+    display: flex;
+}
+
 /*Style header*/
 /*Logo*/
 .logo {
@@ -64,25 +69,43 @@ ul {
 
 /*Navigation*/
 .nav-site {
+    display: flex;
+
     list-style: none;
     padding: 0;
 }
+
+.nav-site .item + .item {
+    margin-left: 50px;
+}
+
 .nav-site-link {
+    display: block;
+    padding-top: 31px;
+    padding-bottom: 32px;
+
     color: var(--primary-black-color);
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
 .nav-site-link:hover,
 .nav-site-link:focus {
     color: var(--primary-blue-color);
 }
 
 .nav-cont {
+    display: flex;
     list-style: none;
     padding: 0;
 }
+
+.nav-cont .item + .item {
+    margin-left: 50px;
+}
+
 .nav-cont-link {
     color: var(--primary-text-color);
     font-weight: 500;
