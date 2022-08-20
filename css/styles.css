@@ -45,9 +45,23 @@ ul {
     margin-bottom: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 /*INDEX*/
-
-
 
 /*Style header*/
 .header {
@@ -132,18 +146,25 @@ ul {
 
 /*Style main*/
 /*Hero*/
-.section.hero {
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
     background: #2F303A;
     text-align: center;
 }
 
 .hero-text {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.35;
     letter-spacing: 0.06em;
     color: var(--primary-white-color);
-    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -190,6 +211,10 @@ ul {
 }
 
 /*About*/
+.supp-pt {
+    padding-top: 0;
+}
+
 .about-list {
     display: flex;
     padding: 0;
@@ -254,17 +279,20 @@ ul {
     color: var(--primary-black-color);
 
     text-align: center;
-    margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .team-prof {
     text-align: center;
-    padding-bottom: 30px;
 
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
+}
+
+.team-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -294,16 +322,11 @@ ul {
 }
 
 .address-list {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
     padding-bottom: 60px;
-
-    list-style: none;
 }
 
 .address-list .item + .item {
-    padding-top: 9px;
+    margin-top: 9px;
 }
 
 .address {
@@ -369,15 +392,9 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0;
-
-    list-style: none;
 }
 
 .samples-list .item {
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
-
     margin-bottom: 30px;
 }
 
@@ -401,10 +418,7 @@ ul {
     letter-spacing: 0.06em;
     color: var(--primary-black-color);
 
-    margin-top: 20px;
     margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 20px;
 }
 
 .port-list-text {
@@ -412,13 +426,15 @@ ul {
     line-height: 1.875;
     color: var(--primary-text-color);
     letter-spacing: 0.03em;
-
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 20px;
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.port-title-text {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
 }
