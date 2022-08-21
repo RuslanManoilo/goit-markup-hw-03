@@ -303,7 +303,6 @@ ul {
 
 .footer-logo {
     display: flex;
-    padding-top: 60px;
     margin-bottom: 20px;
 
     font-family: 'Raleway', sans-serif;
@@ -321,8 +320,9 @@ ul {
     font-style: normal;
 }
 
-.address-list {
+.supp-footer {
     padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .address-list .item + .item {
